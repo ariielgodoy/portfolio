@@ -1,0 +1,99 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\geometry{left=0.5in, right=0.5in, top=0.5in, bottom=0.5in}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+
+% Section formatting with dividing line
+\titleformat{\section}{\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large \textbf{Juan Ariel Godoy Báez}}\\[0.2em]
+    C/ Vázquez Claver Nº 10 • Málaga, Málaga, 29003 • juanarielgodoybaez750@gmail.com • +34 681241198
+\end{center}
+
+%\vspace{0.1em}
+
+% Work Experience
+\section*{Work Experience}
+\textbf{DEKRA España} \hfill Málaga, Spain\\
+\textit{Intern – Electromagnetic and Radio Matters engineer} \hfill March 2025 – September 2025
+\begin{itemize}[noitemsep]
+    \item Participated in Electromagnetic Compatibility (EMC) and radio frequency testing procedures.
+    \item Assisted in configuring instruments such as signal generators and spectrum analyzers.
+    \item Developed Python scripts to automate equipment control and data collection via SCPI commands.
+\end{itemize}
+
+\vspace{0.1em}
+
+\textbf{Enerclic Innovatio} \hfill Spain\\
+\textit{Intern – R\&D Department} \hfill March 2026 -- May 2026
+\begin{itemize}[noitemsep]
+    \item Conducted functional testing for systems and equipment within the Research and Development department.
+\end{itemize}
+
+\vspace{0.05em}
+
+
+% Education
+\section*{Education}
+\textbf{University of Málaga} \hfill Málaga, Spain\\[0.1em]
+\textit{Master in Mechatronic Engineering} \hfill September 2026 - Present\\
+\textit{Bachelor in Electronic, Robotic and Mechatronic Engineering}
+\hfill September 2021 – July 2026\\[0.3em]
+GPA: 7.24
+\begin{itemize}[noitemsep]
+    \item \textbf{Bachelor's Thesis (TFG):} ``Cone detection using computer vision and path following with pure pursuit using a 1/10 scale car''. Awarded Honors (\textit{Matrícula de Honor}) with a grade of 9.8/10.
+\end{itemize}
+
+\textbf{Study Abroad} \hfill Liège, Belgium\\[0.1em]
+\textit{Erasmus Program} \hfill September 2023 – June 2024\\[0.3em]
+\textbf{University of Liège} \\[0.1em]
+GPA: 8.2, Courses recognized for performance: Electrical Circuits, Digital Electronics, Power Electronics
+
+\vspace{0.1em}
+
+
+% Projects
+\section*{Personal / University Projects}
+\textbf{University of Málaga} \hfill Málaga, Spain
+\begin{itemize}[noitemsep]
+    \item Built a robot capable of following a path while avoiding obstacles.
+    \item Development of FIR and IIR filters on an FPGA.
+\end{itemize}
+\vspace{0.2em}
+\textbf{University of Liège} \hfill Liège, Belgium
+\begin{itemize}[noitemsep]
+    \item Built a buck converter that was recognized for its robustness among other prototypes.
+    \item Programmed a CPLD in VHDL.
+    \item Participated in a project course in C.
+\end{itemize}
+
+% Extracurricular
+\section*{Extracurricular Activities}
+\textbf{University of Málaga}
+
+\textit{Extracurricular course on Data Science and Machine Learning.} \hfill January 2025 – March 2025
+
+\textit{KSKILL. Extracurricular course on Digital Twins.} \hfill October 2024 – December 2024
+
+\textit{Introduction to Financial Engineering: The Fintech Revolution} \hfill March 2025 – May 2025
+
+\textbf{NVIDIA Deep Learning Institute}
+
+\textit{Fundamentals of Accelerated Computing with Modern CUDA C++ (DLI Nvidia)} \hfill November 2025 – October 2025
+
+\textit{Fundamentals of Deep Learning (DLI Nvidia)} \hfill November 2025 – October 2025
+
+\section*{Skills and Interests}
+\textbf{Technical:} Linux, ROS2, C++, MATLAB, VisualComponents, PSPICE, Python.\\[0.05em]
+\textbf{Languages:} \textbf{English} (Level: Cambridge Advanced Exam, C1), \textbf{French} (Level: DELF B2), \textbf{Spanish} (Native).\\[0.1em]
+
+\end{document}
