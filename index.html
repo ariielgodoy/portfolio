@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Ariel Godoy Báez | Robotics & Embedded Systems Engineer</title>
+    <meta name="description" content="Portfolio profesional de Juan Ariel Godoy Báez - Ingeniero Electrónico, Robótico y Mecatrónico especializado en sistemas embebidos, RTL/FPGA y robótica autónoma.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">JA<span>GB</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero" data-i18n="nav_home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav_about">Sobre mí</a></li>
+                <li><a href="#experience" data-i18n="nav_exp">Experiencia</a></li>
+                <li><a href="#projects" data-i18n="nav_proj">Proyectos</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Habilidades</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-btn" aria-label="Switch language">EN</button>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h2 class="reveal" data-i18n="hero_greeting">Hola, mi nombre es</h2>
+                <h1 class="reveal">Juan Ariel Godoy Báez</h1>
+                <h3 class="reveal"><span class="typing"></span><span class="cursor">|</span></h3>
+                <p class="reveal" data-i18n="hero_desc">Ingeniero Electrónico, Robótico y Mecatrónico enfocado en verificación digital (RTL), sistemas embebidos, visión artificial y navegación autónoma.</p>
+                <div class="hero-btns reveal">
+                    <a href="#contact" class="btn btn-primary" data-i18n="btn_contact">Contactar</a>
+                    <a href="cv.pdf" class="btn btn-secondary" download data-i18n="btn_cv">Descargar CV (PDF)</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title" data-i18n="sec_about">Sobre mí</h2>
+            <div class="about-container reveal">
+                <div class="about-text">
+                    <p data-i18n="about_p1">Soy ingeniero graduado en Electrónica, Robótica y Mecatrónica por la Universidad de Málaga (con estancia Erasmus+ en la Université de Liège) y actualmente curso el Máster en Ingeniería Mecatrónica.</p>
+                    <p data-i18n="about_p2">Mi enfoque combina el diseño y verificación de hardware de bajo nivel (VHDL, FPGAs, microcontroladores en C/C++ bare-metal) con software de alto nivel para robótica autónoma (ROS 2, Python, visión artificial y Deep Learning). Busco aportar rigor técnico en sectores de alta exigencia como aeroespacial, defensa, semiconductores e I+D.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-box">
+                        <span class="highlight-num">9.8/10</span>
+                        <span class="highlight-label" data-i18n="hl_tfg">Matrícula de Honor en TFG (Conducción Autónoma)</span>
+                    </div>
+                    <div class="highlight-box">
+                        <span class="highlight-num">3</span>
+                        <span class="highlight-label" data-i18n="hl_exp">Experiencias en I+D, EMC y Aeroespacial</span>
+                    </div>
+                    <div class="highlight-box">
+                        <span class="highlight-num">C1 / B2</span>
+                        <span class="highlight-label" data-i18n="hl_lang">Inglés (Cambridge) y Francés (DELF)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title" data-i18n="sec_exp">Experiencia y Formación</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_clue">Noviembre 2026 - Presente</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_clue">Prácticas – Verificación RTL (Hardware Digital)</h3>
+                        <h4>Clue Technologies • Málaga, España</h4>
+                        <ul>
+                            <li data-i18n="desc_clue_1">Verificación funcional a bajo nivel de diseño digital RTL para sistemas aeroespaciales y aviónica.</li>
+                            <li data-i18n="desc_clue_2">Desarrollo de entornos de prueba y validación sobre arquitecturas FPGA/VHDL.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_master">Septiembre 2026 - Presente</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_master">Máster en Ingeniería Mecatrónica</h3>
+                        <h4>Universidad de Málaga • Málaga, España</h4>
+                        <p data-i18n="desc_master">Especialización avanzada en control de robots móviles, sistemas mecatrónicos complejos y automatización.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_enerclic">Marzo 2026 - Mayo 2026</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_enerclic">Prácticas – Departamento de I+D</h3>
+                        <h4>Enerclic Innovatio S.L. • Málaga, España</h4>
+                        <ul>
+                            <li data-i18n="desc_enerclic_1">Desarrollo de interfaces gráficas de diagnóstico en Python (PyQt5) y gestión de bases de datos SQL.</li>
+                            <li data-i18n="desc_enerclic_2">Validación funcional de prototipos electrónicos embebidos, comunicaciones industriales (Modbus, MQTT) y Raspberry Pi.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_dekra">Marzo 2025 - Septiembre 2025</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_dekra">Prácticas – Ingeniero de Ensayos Radioeléctricos y EMC</h3>
+                        <h4>DEKRA España • Málaga, España</h4>
+                        <ul>
+                            <li data-i18n="desc_dekra_1">Ejecución de ensayos de Compatibilidad Electromagnética (EMC) y radiofrecuencia en laboratorio.</li>
+                            <li data-i18n="desc_dekra_2">Configuración de analizadores de espectro y generadores de señales.</li>
+                            <li data-i18n="desc_dekra_3">Automatización de instrumentación y captura de datos mediante scripts en Python y comandos SCPI.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_erasmus">Septiembre 2023 - Junio 2024</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_erasmus">Estancia Erasmus+ (Ingeniería)</h3>
+                        <h4>Université de Liège • Lieja, Bélgica</h4>
+                        <p data-i18n="desc_erasmus">Nota media: 8.2/10. Reconocimiento académico en Circuitos Eléctricos, Electrónica Digital (VHDL/CPLD) y Electrónica de Potencia.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-i18n="date_grado">Septiembre 2021 - Julio 2026</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="role_grado">Grado en Ingeniería Electrónica, Robótica y Mecatrónica</h3>
+                        <h4>Universidad de Málaga • Málaga, España</h4>
+                        <p data-i18n="desc_grado_1">Nota media: 7.24/10.</p>
+                        <p data-i18n="desc_grado_2"><strong>TFG:</strong> "Detección de conos mediante visión artificial y seguimiento de trayectorias con Pure Pursuit en vehículo a escala 1/10" (Formula Student Driverless sobre NVIDIA Jetson TX2). <strong>Matrícula de Honor (9.8/10)</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title" data-i18n="sec_proj">Proyectos Destacados</h2>
+            
+            <div class="filter-buttons reveal">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Todos</button>
+                <button class="filter-btn" data-filter="robotics" data-i18n="filter_rob">Robótica & IA</button>
+                <button class="filter-btn" data-filter="fpga" data-i18n="filter_fpga">FPGA & Embebidos</button>
+                <button class="filter-btn" data-filter="power" data-i18n="filter_pow">Potencia & PCB</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card reveal" data-category="robotics">
+                    <div class="project-info">
+                        <span class="project-badge">TFG • 9.8/10 MH</span>
+                        <h3 data-i18n="proj1_title">Conducción Autónoma (Formula Student)</h3>
+                        <p data-i18n="proj1_desc">Pipeline de visión artificial (YOLO) con dataset sintético propio en Blender/Gazebo y algoritmo de control lateral Pure Pursuit desplegado en NVIDIA Jetson TX2.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>ROS 2</span>
+                        <span>Computer Vision</span>
+                        <span>Jetson TX2</span>
+                        <span>Python / C++</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="fpga">
+                    <div class="project-info">
+                        <span class="project-badge">DSP & Hardware</span>
+                        <h3 data-i18n="proj2_title">Filtros Digitales FIR e IIR en FPGA</h3>
+                        <p data-i18n="proj2_desc">Diseño RTL, simulación y síntesis de filtros digitales de procesamiento de señal en tiempo real sobre FPGA.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>VHDL</span>
+                        <span>FPGA</span>
+                        <span>Vivado / Quartus</span>
+                        <span>DSP</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="robotics">
+                    <div class="project-info">
+                        <span class="project-badge">Deep Learning</span>
+                        <h3 data-i18n="proj3_title">Redes Neuronales desde Cero (NumPy)</h3>
+                        <p data-i18n="proj3_desc">Implementación matemática sin frameworks de perceptrones binarios, multiclase y Perceptrón Multicapa (MLP) con backpropagation entrenado en MNIST.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>CUDA C++</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="power">
+                    <div class="project-info">
+                        <span class="project-badge">ULiège • Bélgica</span>
+                        <h3 data-i18n="proj4_title">Convertidor Buck de Alta Robustez</h3>
+                        <p data-i18n="proj4_desc">Diseño, simulación y montaje físico de un convertidor DC-DC reductor, reconocido por su estabilidad y eficiencia frente a otros prototipos.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>Electrónica de Potencia</span>
+                        <span>PSPICE</span>
+                        <span>Hardware</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="fpga">
+                    <div class="project-info">
+                        <span class="project-badge">ULiège • Bélgica</span>
+                        <h3 data-i18n="proj5_title">Controlador Digital en CPLD</h3>
+                        <p data-i18n="proj5_desc">Descripción de hardware en VHDL y síntesis sobre dispositivos lógicos programables complejos (CPLD) para máquinas de estados síncronas.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>VHDL</span>
+                        <span>CPLD</span>
+                        <span>Lógica Digital</span>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" data-category="power">
+                    <div class="project-info">
+                        <span class="project-badge">Sistemas Embebidos</span>
+                        <h3 data-i18n="proj6_title">Robot Móvil Autónomo y Diseño PCB</h3>
+                        <p data-i18n="proj6_desc">Desarrollo de robot seguidor de trayectoria con evasión de obstáculos y diseño de PCB personalizada en KiCad para integrar drivers y sensores.</p>
+                    </div>
+                    <div class="project-tags">
+                        <span>KiCad</span>
+                        <span>C / C++</span>
+                        <span>STM32 / ESP32</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title" data-i18n="sec_skills">Habilidades Técnicas</h2>
+            <div class="skills-container reveal">
+                <div class="skills-category">
+                    <h3 data-i18n="skill_cat1">Embebidos & Hardware</h3>
+                    <ul class="skills-list">
+                        <li>VHDL / RTL Verification</li>
+                        <li>FPGAs & CPLDs (Vivado / Quartus)</li>
+                        <li>C / C++ (Bare-Metal, RTOS)</li>
+                        <li>STM32, ESP32 (ESP-IDF), AVR</li>
+                        <li>KiCad & PSPICE</li>
+                        <li>Instrumentación EMC / RF (SCPI)</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 data-i18n="skill_cat2">Robótica, IA & Software</h3>
+                    <ul class="skills-list">
+                        <li>ROS / ROS 2 & Gazebo</li>
+                        <li>Python (NumPy, PyQt5, OpenCV)</li>
+                        <li>CUDA C++ & Deep Learning</li>
+                        <li>MATLAB & Simulink</li>
+                        <li>Linux (Ubuntu) & Docker</li>
+                        <li>Git & GitHub Actions</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 data-i18n="skill_cat3">Idiomas</h3>
+                    <ul class="skills-list">
+                        <li><strong data-i18n="lang_es">Español:</strong> Nativo</li>
+                        <li><strong data-i18n="lang_en">Inglés:</strong> C1 (Cambridge Advanced)</li>
+                        <li><strong data-i18n="lang_fr">Francés:</strong> B2 (DELF)</li>
+                        <li><strong data-i18n="lang_de">Alemán:</strong> A1 (Certificado)</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 data-i18n="skill_cat4">Certificaciones</h3>
+                    <ul class="skills-list">
+                        <li>Accelerated Computing with CUDA C++ (NVIDIA DLI)</li>
+                        <li>Fundamentals of Deep Learning (NVIDIA DLI)</li>
+                        <li>Digital Twins – KSKILL (UMA)</li>
+                        <li>Data Science & Machine Learning (UMA)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <h2 class="section-title" data-i18n="sec_contact">Contacto</h2>
+            <div class="contact-container reveal">
+                <p data-i18n="contact_desc">¿Buscas un perfil técnico en robótica, sistemas embebidos o verificación hardware? Escríbeme directamente o descarga mi currículum.</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-cards">
+                        <div class="contact-card-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:juanarielgodoybaez750@gmail.com">juanarielgodoybaez750@gmail.com</a>
+                            </div>
+                            <button id="copy-email" class="copy-btn" title="Copiar email" data-i18n="btn_copy">Copiar</button>
+                        </div>
+
+                        <div class="contact-card-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <h4 data-i18n="lbl_phone">Teléfono</h4>
+                                <a href="tel:+34681241198">+34 681 241 198</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4 data-i18n="lbl_loc">Ubicación</h4>
+                                <span data-i18n="val_loc">Málaga, España (Disponibilidad movilidad europea)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="contact-form">
+                        <input type="text" id="sender-name" placeholder="Tu nombre / Empresa" required data-i18n-placeholder="ph_name">
+                        <input type="email" id="sender-email" placeholder="Tu correo electrónico" required data-i18n-placeholder="ph_email">
+                        <textarea id="sender-msg" rows="4" placeholder="Mensaje..." required data-i18n-placeholder="ph_msg"></textarea>
+                        <button type="submit" class="btn btn-primary" data-i18n="btn_send">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Juan Ariel Godoy Báez. <span data-i18n="footer_rights">Todos los derechos reservados.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
